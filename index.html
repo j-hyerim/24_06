@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전혜림의 버킷리스트[스위스여행]</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/base.css">
+    <!-- 제이쿼리 CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- 구글 머터리얼 디자인 아이콘 CDN / font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+    <script src="./js/index.js" defer></script>
+</head>
+<body>
+    <div id="index">
+    <!-- header -->
+        <header class="max_width blur">
+            <!-- menu -->
+            <div>
+                <a href="./index.html"><img id="logo" src="./image/logo.png" alt="logo"></a>
+                <!-- pc nav -->
+                <nav class="pc">
+                    <ul>
+                        <li><a class="active" href="./index.html"><span class="material-icons">home</span></a></li>
+                        <li><a href="./travel.html"><span class="material-icons">flight</span></a></li>
+                        <li><a href="./food.html"><span class="material-icons">fastfood</span></a></li>
+                    </ul>
+                </nav>
+                <!-- mpbile nav -->
+                <nav class="mo nav">
+                    <ul>
+                        <li><a class="active" href="./index.html"><span class="material-icons">home</span></a></li>
+                        <li><a href="./travel.html"><span class="material-icons">flight</span></a></li>
+                        <li><a href="./food.html"><span class="material-icons">fastfood</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div id="dumy"></div>
+        <!-- main -->
+        <main class="max_width blur">
+            <section>
+                <div class="title01">
+                    <h2>스위스 소개</h2>
+                    <p class="main_text_B"><span class="lighter">가고싶었던 여행지</span><br><span class="dot-above">스</span><span class="dot-above">위</span><span class="dot-above">스</span>를 소개합니다.</p>
+                    <p class="sub_text_B">아름다운 경치와 동화속에 온것같은 산맥, 자연이 주는 힐링</p>
+                </div>
+                <div class="change">
+                    <ul>
+                        <li><img src="./image/flag_sw.jpg" alt="대한민국 국기">대한민국(WON) <span class="m">1,507원</span></li>
+                        <li><img src="./image/flag_ko.jpg" alt="스위스 국기">스위스(FRANC) <span class="m">1Fr</span></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="ani01 arti01 flex01">
+                    <a href="./food.html"><img src="./image/index_food.png" alt="food 바로가기"></a>
+                    <div class="">
+                        <p class="sub_text">저작권때문에 생긴 <b>표현에 제약</b><br>입이 즐거운 <b>맛의 나라</b></p>
+                        <p class="main_text">스위스의 관광상품 확인하기</p>
+                    </div>
+                </div>
+                <div class="ani01 arti02 flex03">
+                    <a href="./travel.html"><img src="./image/index_travel.png" alt="관광지 바로가기"></a>
+                    <div class="active">
+                        <p class="sub_text">아름다운 <b>자연의 풍경</b><br>즐거운 <b>액티비티</b></p>
+                        <p class="main_text">스위스의 관광명소 확인하기</p>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+    </div>
+    <div class="max_width footer blur ">
+        <p><b>스위스 인기 관광지 미리보기</b></p>
+        <ul>
+            <li>
+                <b>1. 융프라우</b><br>
+                <span># 산악열차 # 트레킹코스</span>
+            </li>
+            <li>
+                <b>2. 루체른</b><br>
+                <span># no.1 관광도시 #카펠교</span>
+            </li>
+            <li>
+                <b>3. 제네바 호수</b><br>
+                <span># 유럽에서 가장 큰 호수</span>
+            </li>
+            <li>
+                <b>4. 몽트뢰</b><br>
+                <span># 재즈페스티벌 #시옹성</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 모바일 메뉴 -->
+    <section class="max_width m_s02 mo">
+        <div class="m_ani">
+            <div class="ani02 ani02_1">
+                <div class="ani_image">
+                    <a href="./food.html">
+                        <!-- <img src="./image/mo_food.png" alt="food 바로가기"> -->
+                        <div class="ani_text">
+                            <p class="sub_text">저작권때문에 생긴 <b>표현에 제약</b><br>입이 즐거운 <b>맛의 나라</b></p>
+                            <p class="main_text">스위스의 관광상품 확인하기 ></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="ani02 ani02_2">
+                <div class="ani_image">
+                    <a href="./travel.html">
+                        <!-- <img src="./image/mo_tra.png" alt="관광지 바로가기"> -->
+                        <div class="ani_text">
+                            <p class="sub_text">아름다운 <b>자연의 풍경</b><br>즐거운 <b>액티비티</b></p>
+                            <p class="main_text">스위스의 관광명소 확인하기 ></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+     <div class="sub_width footer_m footer_m01 blur mo">
+        <ul>
+            <li>
+                <b>1. 초콜릿</b>
+                <span># Lindt # Toblerone</span>
+            </li>
+            <li>
+                <b>2. 치즈</b>
+                <span># Ementaler # Raclette</span>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <b>3. 알프스 허브</b>
+                <span># 알프스 특산물</span>
+            </li>
+            <li>
+                <b>4. 와인</b>
+                <span># Balavaud #Chasselas</span>
+            </li>
+        </ul>
+        
+    </div>
+     <div class="sub_width footer_m footer_m02 blur mo">
+        <ul>
+            <li>
+                <b>1. 융프라우</b>
+                <span># 산악열차 </span>
+            </li>
+            <li>
+                <b>2. 루체른</b>
+                <span># no.1 관광도시</span>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <b>3. 제네바 호수</b>
+                <span># no.1 호수</span>
+            </li>
+            <li>
+                <b>4. 몽트뢰</b>
+                <span># 재즈페스티벌</span>
+            </li>
+        </ul>
+        
+    </div>
+    <div class="max_width change_m blur mo">
+            <ul>
+                <li><img src="./image/flag_sw.jpg" alt="대한민국 국기">대한민국(WON) <span class="m">1,507원</span></li>
+                <li><img src="./image/flag_ko.jpg" alt="스위스 국기">스위스(FRANC) <span class="m">1Fr</span></li>
+            </ul>
+    </div>
+<script>
+
+</script>
+</html>
