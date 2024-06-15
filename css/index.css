@@ -212,7 +212,8 @@ main > section:nth-child(2)>div.ani01:hover{
 @media (max-width:860px) {
     
     body>div#index {  
-        calc(100vw + 750px);
+
+        height: calc(100vw + 750px);
     }
         
     /* 더미상자 */
