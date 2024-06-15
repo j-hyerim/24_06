@@ -207,6 +207,12 @@ main > section:nth-child(2)>div.ani01:hover{
 /* 모바일 */
 @media (max-width:860px) {
 
+        
+    /* 더미상자 */
+    #dumy{
+        height: 100px;
+    }
+
     main{
         height: 170px;
         background: none;
