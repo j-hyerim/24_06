@@ -210,7 +210,10 @@ main > section:nth-child(2)>div.ani01:hover{
 
 /* 모바일 */
 @media (max-width:860px) {
-
+    
+    body>div#index{    
+        calc(100vw + 750px);
+    }
         
     /* 더미상자 */
     #dumy{
