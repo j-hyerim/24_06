@@ -6,7 +6,7 @@ body>div#index{
     top: 0;
     left: 0;
     width: 100%;
-    height: calc(100% + 400px);
+    height: calc(100% + 330px);
     overflow:hidden;
     background-image: url(../image/homebg.jpg); 
     background-size: cover; 
@@ -200,6 +200,8 @@ main > section:nth-child(2)>div.ani01:hover{
 
 /* 태블릿 */
 @media screen and (min-width: 768px) and (max-width:1024px) {
+    
+    height: calc(100% + 500px);
 
 }
 
