@@ -7,6 +7,7 @@ body>div#index{
     left: 0;
     width: 100%;
     height: calc(100% + 400px);
+    overflow:hidden;
     background-image: url(../image/homebg.jpg); 
     background-size: cover; 
     background-position: center; 
