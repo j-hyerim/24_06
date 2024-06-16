@@ -209,7 +209,7 @@ a.active{
 }
 
 /* teblet */
-@media screen and (min-width: 768px) and (max-width:1024px) {
+@media screen and (min-width: 861px) and (max-width:1024px) {
     .max_width{
         width: 95%;
     }
@@ -322,6 +322,22 @@ a.active{
     .keyword{
         display: none;
     }
+    /* section01 */
+    .change_m ul li{
+        font-size: 12px;
+        padding: 0 3%;
+    }
+    .change_m ul li span{
+        padding: 5px 2px;
+    }
+    .change_m ul li img{
+        margin: 0;
+        transform: translateY(5px) scale(0.8);
+    }
+    /* section02 */
+    .footer_m ul li span{
+        padding: 0;
+    }
     /* ilust width */
     .ilust>div:last-child{
         width: 350px;
@@ -390,4 +406,10 @@ a.active{
 
     /* 일러스트 텍스트 위치 */
     .illust_text{display: none;}
+}
+@media (max-width:450px) {
+    .footer_m ul li{text-align: center;}
+    .footer_m ul li span{
+        display: none;
+    }
 }
