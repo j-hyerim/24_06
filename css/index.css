@@ -203,7 +203,6 @@ main > section:nth-child(2)>div.ani01:hover{
         
     body>div#index{
         height: calc(100% + 500px);
-        overflow:hidden;
     }
 
 }
@@ -213,8 +212,8 @@ main > section:nth-child(2)>div.ani01:hover{
 @media (max-width:860px) {
     
     body>div#index {  
+
         height: calc(100vw + 750px);
-        overflow:hidden;
     }
         
     /* 더미상자 */
